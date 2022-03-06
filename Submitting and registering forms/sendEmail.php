@@ -84,4 +84,4 @@ if (preg_match("/not correct/", $resultOfSubmission)) {
 }
 ?>
 
-<h2><a href="data_view.php"> Вывод данных в таблице </a></h2>
+<h2><a href="pagination.php"> Вывод данных в таблице </a></h2>
