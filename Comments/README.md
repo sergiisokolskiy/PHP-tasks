@@ -59,3 +59,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Описание проекта
+На главной странице сайта отображаются опубликованные рандомно-сгенерированные посты ( <a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG"> рис.1 </a>).
+
+<br><br>
+![screenshot 1](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG)
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+<p align="center"><a href="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG" target="_blank"><img src="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG"></a></p>
+
+По нажатию на <i> заголовок </i>, выводится страница с выбранным постом (рис.2). 
+Чтобы посмотреть или написать комментарии к выбраному посту, нужно нажать на слово <i> "комментарии" </i>.
+
+
+На рис.3 изображенно дерево комментариев, где цифрами пронумерованы "родительские" комментарии, а символами - "дочерние" (ответы на них), они немного сдвинуты. 
+Все комментарии можно <i>отредактировать </i>, <i>удалить</i> и <i>ответить</i>, нажав на соответствующие надписи под ними.
+
+
+Чтобы создать новый комментарий, нужно нажать на кнопку <i>"Новый комментарий" </i> вверху страницы и перейдем во вкладку для создания и редактирования комментариев (рис.4).
+
+Здесь в специальном поле <i>"Ваш комментарий"</i> пишется текст нового комментария или редактируется уже готовый (рис.5). Для отправки нажимаем на кнопку <i>"Сохранить"</i>.
+
+Текст комментария <i>("content_raw")</i>, его <i>"id"</i>, <i>"parent_id"</i> записываются в соответствующие ячейки в БД (рис.6).
+
+Комментарии привязаны к определенному посту по индексу <i>"post_id"</i>, поэтому по разными постами будут отображаться соответствующие комментарии (рис.7).
