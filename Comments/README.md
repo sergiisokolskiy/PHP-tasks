@@ -64,13 +64,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 На главной странице сайта отображаются опубликованные рандомно-сгенерированные посты ( <a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG"> рис.1 </a>).
 
 <br>
-![screenshot 1](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG)
+<p align="center"><a href="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG" target="_blank"><img src="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG" ></a></p>
 <br>
 
 По нажатию на <i> заголовок </i>, выводится страница с выбранным постом (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG">рис.2 </a>). 
 
 <br>
-![screenshot 2](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG)
+<p align="center"><a href="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG" target="_blank"><img src="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG" ></a></p>
 <br>
 
 Чтобы посмотреть или написать комментарии к выбраному посту, нужно нажать на слово <i> "комментарии" </i>.
