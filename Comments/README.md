@@ -65,13 +65,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 <br>
 ![screenshot 1](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG)
-
+<br>
 
 По нажатию на <i> заголовок </i>, выводится страница с выбранным постом (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG">рис.2 </a>). 
 
 <br>
 ![screenshot 2](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG)
-
+<br>
 
 Чтобы посмотреть или написать комментарии к выбраному посту, нужно нажать на слово <i> "комментарии" </i>.
 Для навигации есть кнопка <i> "Main" </i>, которая позволяет вернуться на главную страницу.
@@ -81,6 +81,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 <br>
 ![screenshot 3](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/3.JPG)
+<br>
 
 Все комментарии можно <i>отредактировать </i>, <i>удалить</i> и <i>ответить</i>, нажав на соответствующие надписи под ними.
 
@@ -88,6 +89,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 <br>
 ![screenshot 4](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/4.JPG)
+<br>
 
 Здесь в специальном поле <i>"Ваш комментарий"</i> пишется текст нового комментария или редактируется уже готовый (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/5.JPG"> рис.5 </a> ). Для отправки нажимаем на кнопку <i>"Сохранить"</i>.
 
@@ -95,8 +97,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 <br>
 ![screenshot 6](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/6.JPG)
+<br>
+
 
 Комментарии привязаны к определенному посту по индексу <i>"post_id"</i>, поэтому по разными постами будут отображаться соответствующие комментарии (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/7.JPG"> рис.7 </a>).
 
 <br>
 ![screenshot 7](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/7.JPG)
+<br>
+
