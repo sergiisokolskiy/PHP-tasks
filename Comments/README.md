@@ -63,25 +63,40 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Описание проекта
 На главной странице сайта отображаются опубликованные рандомно-сгенерированные посты ( <a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG"> рис.1 </a>).
 
-<br><br>
+<br>
 ![screenshot 1](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG)
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center"><a href="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG" target="_blank"><img src="https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/1.JPG"></a></p>
+По нажатию на <i> заголовок </i>, выводится страница с выбранным постом (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG">рис.2 </a>). 
 
-По нажатию на <i> заголовок </i>, выводится страница с выбранным постом (рис.2). 
+<br>
+![screenshot 2](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/2.JPG)
+
+
 Чтобы посмотреть или написать комментарии к выбраному посту, нужно нажать на слово <i> "комментарии" </i>.
+Для навигации есть кнопка <i> "Main" </i>, которая позволяет вернуться на главную страницу.
 
 
-На рис.3 изображенно дерево комментариев, где цифрами пронумерованы "родительские" комментарии, а символами - "дочерние" (ответы на них), они немного сдвинуты. 
+На <a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/3.JPG">рис.3 </a> изображенно дерево комментариев, где цифрами пронумерованы "родительские" комментарии, а символами - "дочерние" (ответы на них), они немного сдвинуты вправо.
+
+<br>
+![screenshot 3](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/3.JPG)
+
 Все комментарии можно <i>отредактировать </i>, <i>удалить</i> и <i>ответить</i>, нажав на соответствующие надписи под ними.
 
+Чтобы создать новый комментарий, нужно нажать на кнопку <i>"Новый комментарий" </i> вверху страницы и перейдем во вкладку для создания и редактирования комментариев (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/4.JPG"> рис.4 </a>).
 
-Чтобы создать новый комментарий, нужно нажать на кнопку <i>"Новый комментарий" </i> вверху страницы и перейдем во вкладку для создания и редактирования комментариев (рис.4).
+<br>
+![screenshot 4](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/4.JPG)
 
-Здесь в специальном поле <i>"Ваш комментарий"</i> пишется текст нового комментария или редактируется уже готовый (рис.5). Для отправки нажимаем на кнопку <i>"Сохранить"</i>.
+Здесь в специальном поле <i>"Ваш комментарий"</i> пишется текст нового комментария или редактируется уже готовый (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/5.JPG"> рис.5 </a> ). Для отправки нажимаем на кнопку <i>"Сохранить"</i>.
 
-Текст комментария <i>("content_raw")</i>, его <i>"id"</i>, <i>"parent_id"</i> записываются в соответствующие ячейки в БД (рис.6).
+Текст комментария <i>("content_raw")</i>, его <i>"id"</i>, <i>"parent_id"</i> записываются в соответствующие ячейки в БД (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/6.JPG"> рис.6 </a>).
 
-Комментарии привязаны к определенному посту по индексу <i>"post_id"</i>, поэтому по разными постами будут отображаться соответствующие комментарии (рис.7).
+<br>
+![screenshot 6](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/6.JPG)
+
+Комментарии привязаны к определенному посту по индексу <i>"post_id"</i>, поэтому по разными постами будут отображаться соответствующие комментарии (<a href = "https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/7.JPG"> рис.7 </a>).
+
+<br>
+![screenshot 7](https://github.com/sergiisokolskiy/PHP-tasks/blob/main/Comments/Screenshots/7.JPG)
